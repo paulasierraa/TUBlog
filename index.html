@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>Blog-JS</title>
+
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <link id="theme" rel="stylesheet" type="text/css" href="css/green.css"/>
+
+        <!--LIBRERÍA SLIDER-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        
+
+    </head>
+    <body>
+        <div id="change-theme">
+            <div id="to-green"></div>
+            <div id="to-red"></div>
+            <div id="to-blue"></div>
+        </div>
+        <section id="global">
+            <header> 
+                <div id="logo">
+                   <h1>BLOG-JS</h1>
+                </div>
+                <div class="clearfix"></div>
+                <nav id="menu">
+                    <ul >
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">RELOJ</a></li>
+                        <li><a href="#">SOBRE MI</a></li>
+                        <li><a href="#">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            
+            <!--SLIDER-->
+            <div id="slider">
+                <div class="bxslider">
+                    <div><img src="images/hojas.jpg" title="Hojas" ></div>
+                    <div><img src="images/rojo.jpg" title="Rojo" ></div>
+                    <div><img src="images/cielo.jpg" title="Cielo" ></div>
+                </div>
+            </div>
+            <!--CONTENIDO-->
+            <section id="content">
+                <div id="posts">
+                    <article class="post">
+                        <h2>Título del artículo</h2>
+                        <span class="date">Fecha de publicación</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis egestas nulla. Vivamus id tellus vel erat facilisis elementum rutrum at odio. Nam vel sodales odio, nec posuere lacus. Nunc et quam
+                             nec ligula interdum vehicula vitae ut ligula. Phasellus lorem massa, venenatis congue molestie id, finibus vitae justo. Donec commodo massa nec tincidunt bibendum. Curabitur tincidunt nulla sed nisi 
+                             hendrerit, non pellentesque quam auctor. Morbi gravida enim imperdiet, suscipit orci a, luctus risus. Aenean a vestibulum tellus, sit amet pretium nisl. Pellentesque eu enim ornare, facilisis tellus eget,
+                              aliquam metus. Vivamus lacus quam, malesuada ac eros eget, lacinia rhoncus eros. Cras auctor, urna ac vestibulum consectetur, elit odio ullamcorper metus, id sollicitudin enim lorem vel arcu. Aenean tempor enim sed nibh convallis condimentum nec a odio.
+                        
+                        </p>
+                        <a hred="#" class="button-more">Leer más</a>
+                    </article>
+                </div>
+                <aside id="sidebar">
+                    <div id="about">
+                        
+                            <h4><span>¿Quién soy?</span></h4>
+                        <img src="images/caracol.jpg"/>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis egestas nulla. Vivamus id tellus vel erat facilisis elementum rutrum at odio. Nam vel sodales odio, nec posuere lacus. Nunc et quam
+                             nec.
+                        
+                        </p>
+                    </div>
+                    <div id="login">
+                        <h4>Identificate</h4>
+                        <form>
+                            <label for="nametxt">Nombre</label>
+                            <input type="text" name="nametxt"/>
+                            <label for="emailtxt">Correo</label>
+                            <input type="email" name="emailtxt"/>
+                            <label for="clavetxt">Contraseña</label>
+                            <input type="password" name="clavetxt"/>
+                            <input type = "submit" value = "Ingresar"/>
+                        </form>
+                    </div>
+                </aside>
+                <div class="clearfix"></div>
+
+            </section>
+
+        </section>
+        <footer>
+            Master de JavaScript
+            <a href="#" class="to-up">Inicio</a>
+        </footer>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--PLUGIN MOMENTJS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+    </html>
