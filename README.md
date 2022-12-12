@@ -1,5 +1,6 @@
-# TUBlog
-Una idea personalizable para tu blog!
+# ✍ TUBlog
+
+  🌐 Este sitio , es un blog personalizable, donde podrás compartir tus ideas con el mundo entero!
 
 Entrada editable verde
 ![image](https://user-images.githubusercontent.com/48034536/116795436-a4b5de80-aa9a-11eb-8f72-1a62b81b1c68.png)
